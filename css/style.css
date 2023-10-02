@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellota:wght@300;400;700&family=Neuton:wght@200;300;400;700;800&family=Saira+Extra+Condensed:wght@100;300;400;500;600;700;800;900&family=Titillium+Web:wght@200;300;400;600;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(148, 147, 235);
+}
+
+h1 {
+  background-color: #df78b1;
+  font-size: 2rem;
+  font-family: "Bellota", cursive;
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid black;
+}
+
+h2 {
+  background-color: #63a375;
+  color: #edc79b;
+  font-family: "Neuton", serif;
+  text-align: center;
+  padding: 0.5rem;
+  border: 1px solid black;
+}
+
+h3 {
+  background-color: #df78b1;
+  color: #edc79b;
+  font-family: "Saira Extra Condensed", sans-serif;
+  text-align: left;
+  padding: 1rem;
+  border: 1px solid black;
+}
+
+h5 {
+  background-color: #63a375;
+  color: #edc79b;
+  font-family: "Neuton", serif;
+  text-align: center;
+  padding: 0.5rem;
+  border: 1px solid black;
+  letter-spacing: 2px;
+}
+
+.menu1 {
+  background-color: #d57a66;
+  list-style-type: none;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.url {
+  list-style-type: none;
+  text-decoration-line: none;
+  background-color: #d57a66;
+  padding: 0.5rem;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+.parrafo1 {
+  background-color: #ca6680;
+  color: yellow;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  padding: 1rem;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+.norepeat {
+  color: red;
+  background-image: url("../img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 72vh;
+}
+
+.parrafo-quienes {
+  background-color: #ca6680;
+  font-family: cursive;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  padding: 1rem;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+.icon {
+  width: 30px;
+}
+
+.icon-contacto {
+  width: 30px;
+}
+
+.redes1 {
+  padding: 0.5rem;
+  text-align: justify;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.consulta {
+  background-color: chocolate;
+  text-align: start;
+}
+
+.form {
+  text-align: justify;
+  text-decoration-line: none;
+  display: inline-block;
+  padding: 0.5rem;
+}
+
+.fotos {
+  background-color: #4931d1;
+  color: #edc79b;
+  width: 100%;
+  max-width: 50vh;
+  padding: 1rem;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.redes-center {
+  text-align: center;
+}
+
+.videito {
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.main {
+  background-image: url("../img/cover.jpg");
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 72vh;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 4rem;
+}
