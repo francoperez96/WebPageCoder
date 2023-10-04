@@ -84,7 +84,7 @@ h5 {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  height: 72vh;
+  height: 87vh;
 }
 
 .parrafo-quienes {
@@ -134,6 +134,15 @@ h5 {
   display: inline-block;
   border: 1px solid black;
   border-radius: 5px;
+  margin-left: 1rem;
+}
+
+.img-dise1 {
+  display: flex;
+  justify-self: center;
+  text-align: end;
+  align-items: center;
+  gap: 1rem;
 }
 
 .redes-center {
@@ -167,4 +176,45 @@ h5 {
   flex-direction: column;
   padding: 2rem;
   gap: 4rem;
+}
+
+.img-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "img1 img1 img1 parrafo1"
+    "parrafo2 img2 img2 img2";
+  background-size: cover;
+  background-position: center center;
+  margin: 1rem;
+  gap: 1rem;
+  justify-self: center;
+  text-align: center;
+}
+
+.img-index1 {
+  background-color: aqua;
+  grid-area: img1;
+}
+
+.parrafo-img1 {
+  background-color: yellowgreen;
+  grid-area: parrafo1;
+}
+
+.img-index2 {
+  background-color: wheat;
+  grid-area: img2;
+}
+
+.parrafo-img2 {
+  background-color: steelblue;
+  grid-area: parrafo2;
+}
+
+.img-grid .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
