@@ -52,7 +52,7 @@ h5 {
   display: inline-block;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
@@ -178,43 +178,18 @@ h5 {
   gap: 4rem;
 }
 
-.img-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas:
-    "img1 img1 img1 parrafo1"
-    "parrafo2 img2 img2 img2";
-  background-size: cover;
-  background-position: center center;
-  margin: 1rem;
-  gap: 1rem;
-  justify-self: center;
-  text-align: center;
+@media (max-width: 480px) {
+  .parrafo1
+  .parrafo-quienes {
+    font-size: 15px;
+  }
+  .norepeat {
+    height: 100vh;
+  }
 }
 
-.img-index1 {
-  background-color: aqua;
-  grid-area: img1;
-}
-
-.parrafo-img1 {
-  background-color: yellowgreen;
-  grid-area: parrafo1;
-}
-
-.img-index2 {
-  background-color: wheat;
-  grid-area: img2;
-}
-
-.parrafo-img2 {
-  background-color: steelblue;
-  grid-area: parrafo2;
-}
-
-.img-grid .center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@media (max-width: 380px) {
+  .parrafo1 {
+    font-size: 12.5px;
+  }
 }
