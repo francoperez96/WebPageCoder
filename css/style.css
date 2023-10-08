@@ -4,7 +4,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: rgb(148, 147, 235);
+  background-color: #9493eb;
+}
+
+.body {
+  background-color: #9493eb;
 }
 
 h1 {
@@ -14,6 +18,7 @@ h1 {
   text-align: center;
   padding: 1rem;
   border: 1px solid black;
+  margin: 0;
 }
 
 h2 {
@@ -23,6 +28,7 @@ h2 {
   text-align: center;
   padding: 0.5rem;
   border: 1px solid black;
+  margin: 0;
 }
 
 h3 {
@@ -32,6 +38,7 @@ h3 {
   text-align: left;
   padding: 1rem;
   border: 1px solid black;
+  margin: 0;
 }
 
 h5 {
@@ -42,27 +49,31 @@ h5 {
   padding: 0.5rem;
   border: 1px solid black;
   letter-spacing: 2px;
+  margin: 0;
 }
 
 .menu1 {
   background-color: #d57a66;
   list-style-type: none;
-  gap: 0.5rem;
   padding: 0.5rem;
   display: inline-block;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin: 0;
 }
 
 .url {
+  color: #ffd900;
   list-style-type: none;
   text-decoration-line: none;
   background-color: #d57a66;
   padding: 3px;
   display: inline-block;
   border: 1px solid black;
+  margin: 0;
+
 }
 
 .parrafo1 {
@@ -74,6 +85,7 @@ h5 {
   padding: 0.75rem;
   display: inline-block;
   border: 1px solid black;
+  margin: 0;
 }
 
 .norepeat {
@@ -83,6 +95,7 @@ h5 {
   background-position: center center;
   background-size: cover;
   height: 100vh;
+  margin: 0;
 }
 
 .parrafo-quienes {
@@ -91,9 +104,10 @@ h5 {
   font-weight: normal;
   font-style: normal;
   text-align: left;
-  padding: 1rem;
+  padding: 3px;
   display: inline-block;
   border: 1px solid black;
+  margin: 0;
 }
 
 .icon {
@@ -136,10 +150,10 @@ h5 {
   background-color: #4931d1;
   color: #edc79b;
   width: 80%;
-  padding: .5rem;
+  padding: 0.5rem;
   border: 1px solid black;
   border-radius: 5px;
-  margin-left: .05rem;
+  margin-left: 0.05rem;
 }
 
 .parrafo11 {
@@ -154,8 +168,7 @@ h5 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
-  grid-template-areas:
-    "foto1 parrafo1 foto2 parrafo2";
+  grid-template-areas: "foto1 parrafo1 foto2 parrafo2";
   gap: 1rem;
   margin: 1rem;
   align-items: center;
@@ -171,7 +184,7 @@ h5 {
   padding: 3px;
   border: 1px solid black;
   border-radius: 5px;
-  margin-left: .05rem;
+  margin-left: 0.05rem;
 }
 
 .parrafo12 {
@@ -193,7 +206,7 @@ h5 {
   padding: 3px;
   border: 1px solid black;
   border-radius: 5px;
-  margin-left: .05rem;
+  margin-left: 0.05rem;
 }
 
 .parrafo13 {
@@ -209,8 +222,7 @@ h5 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
-  grid-template-areas:
-    "foto1 parrafo1 foto2 parrafo2";
+  grid-template-areas: "foto1 parrafo1 foto2 parrafo2";
   gap: 1rem;
   margin: 1rem;
   align-items: center;
@@ -226,7 +238,7 @@ h5 {
   padding: 3px;
   border: 1px solid black;
   border-radius: 5px;
-  margin-left: .05rem;
+  margin-left: 0.05rem;
 }
 
 .parrafo14 {
@@ -247,7 +259,7 @@ h5 {
   padding: 3px;
   border: 1px solid black;
   border-radius: 5px;
-  margin-left: .05rem;
+  margin-left: 0.05rem;
 }
 
 .parrafo15 {
@@ -280,7 +292,7 @@ h5 {
   padding: 3px;
   border: 1px solid black;
   border-radius: 5px;
-  margin-left: .05rem;
+  margin-left: 0.05rem;
 }
 
 .parrafo10 {
@@ -301,7 +313,7 @@ h5 {
   padding: 3px;
   border: 1px solid black;
   border-radius: 5px;
-  margin-left: .05rem;
+  margin-left: 0.05rem;
 }
 
 .parrafo9 {
@@ -322,7 +334,7 @@ h5 {
   padding: 3px;
   border: 1px solid black;
   border-radius: 5px;
-  margin-left: .05rem;
+  margin-left: 0.05rem;
 }
 
 .parrafo8 {
@@ -343,7 +355,7 @@ h5 {
   padding: 3px;
   border: 1px solid black;
   border-radius: 5px;
-  margin-left: .05rem;
+  margin-left: 0.05rem;
 }
 
 .parrafo7 {
@@ -364,7 +376,7 @@ h5 {
   padding: 3px;
   border: 1px solid black;
   border-radius: 5px;
-  margin-left: .05rem;
+  margin-left: 0.05rem;
 }
 
 .parrafo6 {
@@ -385,7 +397,7 @@ h5 {
   padding: 3px;
   border: 1px solid black;
   border-radius: 5px;
-  margin-left: .05rem;
+  margin-left: 0.05rem;
 }
 
 .parrafo5 {
@@ -415,13 +427,19 @@ h5 {
 .article {
   display: flex;
   flex-direction: column;
-  padding: 2rem;
-  gap: 2.5rem;
+  padding: 1rem;
+  gap: 3rem;
   align-items: center;
+  margin-top: 4rem;
 }
 
-@media screen and (max-width: 480px) {
 
+
+/****************************************************************************************************/
+
+
+
+@media screen and (max-width: 600px) {
   .parrafo1,
   .parrafo-quienes,
   .parrafo5,
@@ -465,5 +483,4 @@ h5 {
     margin-top: 1rem;
     gap: 1rem;
   }
-
 }
