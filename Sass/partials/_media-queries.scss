@@ -1,0 +1,61 @@
+@media screen and (max-width: 1000px) {
+  .tattoo {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+      "tatto1 parrafo1 tatto2 parrafo2"
+      "tatto3 parrafo3 tatto4 parrafo4"
+      "tatto5 parrafo5 tatto6 parrafo6";
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: auto;
+    padding: 1.5rem;
+
+    .form {
+      padding: 0.8rem;
+      padding-bottom: 0.5rem;
+    }
+
+    .img-icon {
+      display: none;
+    }
+
+    .article {
+      padding: 0.8rem;
+      gap: 1.4rem;
+      margin-top: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .norepeat {
+    height: auto;
+  }
+
+  .flex-img {
+    margin-top: 1rem;
+  }
+
+  .grid1,
+  .grid2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    gap: 1rem;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .tattoo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 1rem;
+  }
+}

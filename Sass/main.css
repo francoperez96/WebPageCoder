@@ -1,0 +1,460 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellota:wght@300;400;700&family=Neuton:wght@200;300;400;700;800&family=Saira+Extra+Condensed:wght@100;300;400;500;600;700;800;900&family=Titillium+Web:wght@200;300;400;600;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #9493eb;
+}
+
+.body {
+  background-color: #9493eb;
+}
+
+.menu1 {
+  background-color: #283044;
+  list-style-type: none;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0;
+}
+.menu1 .url {
+  color: #ffd900;
+  font-size: 1.3rem;
+  text-decoration-line: none;
+  background-color: #283044;
+  padding: 3px;
+  margin: 0;
+}
+
+h1 {
+  background-color: #C5EFCB;
+  font-size: 2rem;
+  font-family: "Bellota", cursive;
+  letter-spacing: 0.8px;
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid black;
+  margin: 0;
+}
+
+.parrafo1 {
+  background-color: #9CF6F6;
+  color: black;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  padding: 0.75rem;
+  display: inline-block;
+  border: 1px solid black;
+  margin: 0;
+}
+
+.norepeat {
+  color: #E3170A;
+  letter-spacing: 0.5px;
+  font-weight: bolder;
+  background-image: url("../img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 98.5%;
+  height: 72vh;
+  margin: 0;
+  position: relative;
+}
+
+.menu1 {
+  background-color: #283044;
+  list-style-type: none;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0;
+}
+.menu1 .url {
+  color: #ffd900;
+  font-size: 1.3rem;
+  text-decoration-line: none;
+  background-color: #283044;
+  padding: 3px;
+  margin: 0;
+}
+
+.redes-center {
+  text-align: center;
+}
+.redes-center .redes1 {
+  padding: 0.5rem;
+  text-align: justify;
+  text-decoration: none;
+  display: inline-block;
+}
+.redes-center .redes1 .icon {
+  width: 30px;
+}
+
+h5 {
+  background-color: #C5EFCB;
+  color: #000000;
+  font-family: "Neuton", serif;
+  font-weight: 400;
+  text-align: center;
+  padding: 0.5rem;
+  border: 1px solid black;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+h2 {
+  background-color: #576490;
+  color: #FF8C42;
+  font-family: "Neuton", serif;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  text-align: center;
+  padding: 0.5rem;
+  border: 1px solid black;
+  margin: 0;
+}
+
+.flex-img {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1rem;
+  margin-top: 2rem;
+  align-items: center;
+}
+.flex-img .fotos11 {
+  background-color: #E55934;
+  width: 80%;
+  padding: 2.5px;
+  border: 1.2px solid black;
+  border-radius: 5px;
+  margin-left: 0.05rem;
+}
+.flex-img .parrafo11 {
+  background-color: #9CF6F6;
+  color: #000000;
+  font-weight: 600;
+  font-family: "Titillium Web", sans-serif;
+  padding: 3px;
+  border: 0.5px solid black;
+  border-radius: 8px;
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas: "foto1 parrafo1 foto2 parrafo2";
+  gap: 1rem;
+  margin: 1rem;
+  align-items: center;
+  margin-top: 2rem;
+}
+.grid1 .fotos1 {
+  grid-area: "foto1";
+  background-color: #E55934;
+  width: 100%;
+  max-width: 50vh;
+  padding: 2.5px;
+  border: 1.2px solid black;
+  border-radius: 5px;
+  margin-left: 0.05rem;
+}
+.grid1 .parrafo12 {
+  grid-area: "parrafo1";
+  background-color: #9CF6F6;
+  color: #000000;
+  font-weight: 600;
+  font-family: "Titillium Web", sans-serif;
+  padding: 3px;
+  border: 0.5px solid black;
+  border-radius: 8px;
+}
+.grid1 .fotos2 {
+  min-height: 100%;
+  grid-area: "foto2";
+  background-color: #E55934;
+  width: 100%;
+  max-width: 50vh;
+  padding: 2.5px;
+  border: 1.2px solid black;
+  border-radius: 5px;
+  margin-left: 0.05rem;
+}
+.grid1 .parrafo13 {
+  grid-area: "parrafo2";
+  background-color: #9CF6F6;
+  color: #000000;
+  font-weight: 600;
+  font-family: "Titillium Web", sans-serif;
+  padding: 3px;
+  border: 0.5px solid black;
+  border-radius: 8px;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas: "foto1 parrafo1 foto2 parrafo2";
+  gap: 1rem;
+  margin: 1rem;
+  align-items: center;
+  margin-top: 2rem;
+}
+.grid2 .fotos3 {
+  grid-area: "foto1";
+  background-color: #E55934;
+  width: 100%;
+  max-width: 50vh;
+  padding: 2.5px;
+  border: 1.2px solid black;
+  border-radius: 5px;
+  margin-left: 0.05rem;
+}
+.grid2 .parrafo14 {
+  grid-area: "parrafo1";
+  background-color: #9CF6F6;
+  color: #000000;
+  font-weight: 600;
+  font-family: "Titillium Web", sans-serif;
+  padding: 3px;
+  border: 0.5px solid black;
+  border-radius: 8px;
+}
+.grid2 .fotos4 {
+  grid-area: "foto2";
+  background-color: #E55934;
+  width: 100%;
+  max-width: 50vh;
+  padding: 2.5px;
+  border: 1.2px solid black;
+  border-radius: 5px;
+  margin-left: 0.05rem;
+}
+.grid2 .parrafo15 {
+  grid-area: "parrafo2";
+  background-color: #9CF6F6;
+  color: #000000;
+  font-weight: 600;
+  font-family: "Titillium Web", sans-serif;
+  padding: 3px;
+  border: 0.5px solid black;
+  border-radius: 8px;
+}
+
+.tattoo {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "tatto1 parrafo1 tatto2 parrafo2 tatto3 parrafo3" "tatto4 parrafo4 tatto5 parrafo5 tatto6 parrafo6";
+  gap: 1rem;
+  margin: 1rem;
+  align-items: center;
+}
+.tattoo .tatoo1 {
+  grid-area: "tatoo1";
+  background-color: #E55934;
+  width: 100%;
+  max-width: 50vh;
+  padding: 2px;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  margin-left: 0.05rem;
+}
+.tattoo .parrafo10 {
+  grid-area: "parrafo1";
+  background-color: #9CF6F6;
+  color: #000000;
+  font-family: "Titillium Web", sans-serif;
+  padding: 3px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.tattoo .tatoo2 {
+  grid-area: "tatoo2";
+  background-color: #E55934;
+  width: 100%;
+  max-width: 50vh;
+  padding: 2px;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  margin-left: 0.05rem;
+}
+.tattoo .parrafo9 {
+  grid-area: "parrafo2";
+  background-color: #9CF6F6;
+  color: #000000;
+  font-family: "Titillium Web", sans-serif;
+  padding: 3px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.tattoo .tatoo3 {
+  grid-area: "tatoo3";
+  background-color: #E55934;
+  width: 100%;
+  max-width: 50vh;
+  padding: 2px;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  margin-left: 0.05rem;
+}
+.tattoo .parrafo8 {
+  grid-area: "parrafo3";
+  background-color: #9CF6F6;
+  color: #000000;
+  font-family: "Titillium Web", sans-serif;
+  padding: 3px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.tattoo .tatoo4 {
+  grid-area: "tatoo4";
+  background-color: #E55934;
+  width: 100%;
+  max-width: 50vh;
+  padding: 2px;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  margin-left: 0.05rem;
+}
+.tattoo .parrafo7 {
+  grid-area: "parrafo4";
+  background-color: #9CF6F6;
+  color: #000000;
+  font-family: "Titillium Web", sans-serif;
+  padding: 3px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.tattoo .tatoo5 {
+  grid-area: "tatoo5";
+  background-color: #E55934;
+  width: 100%;
+  max-width: 50vh;
+  padding: 2px;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  margin-left: 0.05rem;
+}
+.tattoo .parrafo6 {
+  grid-area: "parrafo5";
+  background-color: #9CF6F6;
+  color: #000000;
+  font-family: "Titillium Web", sans-serif;
+  padding: 3px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.tattoo .tatoo6 {
+  grid-area: "tatoo6";
+  background-color: #E55934;
+  width: 100%;
+  max-width: 50vh;
+  padding: 2px;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  margin-left: 0.05rem;
+}
+.tattoo .parrafo5 {
+  grid-area: "parrafo6";
+  background-color: #9CF6F6;
+  color: #000000;
+  font-family: "Titillium Web", sans-serif;
+  padding: 3px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.main {
+  background-image: url("../img/cover.jpg");
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 72vh;
+  align-items: center;
+}
+.main .form {
+  text-align: justify;
+  text-decoration-line: none;
+  display: inline-block;
+  padding: 2.5rem;
+  padding-bottom: 3rem;
+}
+.main .img-icon {
+  width: 300px;
+}
+.main .article {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 2.3rem;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+.main .article .icon-contacto {
+  width: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+  .tattoo {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "tatto1 parrafo1 tatto2 parrafo2" "tatto3 parrafo3 tatto4 parrafo4" "tatto5 parrafo5 tatto6 parrafo6";
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: auto;
+    padding: 1.5rem;
+  }
+  .main .form {
+    padding: 0.8rem;
+    padding-bottom: 0.5rem;
+  }
+  .main .img-icon {
+    display: none;
+  }
+  .main .article {
+    padding: 0.8rem;
+    gap: 1.4rem;
+    margin-top: 1rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .norepeat {
+    height: auto;
+  }
+  .flex-img {
+    margin-top: 1rem;
+  }
+  .grid1,
+  .grid2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    gap: 1rem;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .tattoo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 1rem;
+  }
+}/*# sourceMappingURL=main.css.map */

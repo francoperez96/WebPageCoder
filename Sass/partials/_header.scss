@@ -1,0 +1,19 @@
+.menu1 {
+    background-color: $colorNav;
+    list-style-type: none;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+
+    .url {
+      color: $colorLetraNav;
+      font-size: 1.3rem;
+      text-decoration-line: none;
+      background-color: $colorNav;
+      padding: 3px;
+      margin: 0;
+    }
+  }

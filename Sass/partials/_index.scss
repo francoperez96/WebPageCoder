@@ -1,0 +1,35 @@
+h1 {
+  background-color: $colorH1;
+  font-size: 2rem;
+  font-family: "Bellota", cursive;
+  letter-spacing: .8px;
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid black;
+  margin: 0;
+}
+
+.parrafo1 {
+  background-color: $FondoParrafoPrinc;
+  color: black;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  padding: 0.75rem;
+  display: inline-block;
+  border: 1px solid black;
+  margin: 0;
+}
+.norepeat {
+  color: #E3170A;
+  letter-spacing: .5px;
+  font-weight: bolder;
+  background-image: url("../img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 98.5%;
+  height: 72vh;
+  margin: 0;
+  position: relative;
+}

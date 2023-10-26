@@ -1,0 +1,46 @@
+.menu1 {
+  background-color: $colorNav;
+  list-style-type: none;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0;
+
+  .url {
+    color: $colorLetraNav;
+    font-size: 1.3rem;
+    text-decoration-line: none;
+    background-color: $colorNav;
+    padding: 3px; 
+    margin: 0;
+  }
+}
+
+.redes-center {
+  text-align: center;
+
+  .redes1 {
+    padding: 0.5rem;
+    text-align: justify;
+    text-decoration: none;
+    display: inline-block;
+    
+    .icon {
+      width: 30px;
+    }
+  }
+}
+
+h5 {
+  background-color: $colorH1;
+  color: $colorLetraParra;
+  font-family: "Neuton", serif;
+  font-weight: 400;
+  text-align: center;
+  padding: 0.5rem;
+  border: 1px solid black;
+  letter-spacing: 2px;
+  margin: 0;
+}

@@ -1,0 +1,36 @@
+.main {
+  background-image: url("../img/cover.jpg");
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 72vh;
+  align-items: center;
+
+  .form {
+    text-align: justify;
+    text-decoration-line: none;
+    display: inline-block;
+    padding: 2.5rem;
+    padding-bottom: 3rem;
+  }
+
+  .img-icon {
+    width: 300px;
+  }
+
+  .article {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 2.3rem;
+    align-items: center;
+    margin-top: 1.5rem;
+
+    .icon-contacto {
+      width: 30px;
+    }
+  }
+}

@@ -1,0 +1,136 @@
+.flex-img {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1rem;
+  margin-top: 2rem;
+  align-items: center;
+
+  .fotos11 {
+    background-color: $colorBordeFot;
+    width: 80%;
+    padding: 2.5px;
+    border: 1.2px solid black;
+    border-radius: 5px;
+    margin-left: 0.05rem;
+  }
+  .parrafo11 {
+    background-color: $FondoParrafoPrinc;
+    color: $colorLetraParra;
+    font-weight: 600;
+    font-family: "Titillium Web", sans-serif;
+    padding: 3px;
+    border: .5px solid black;
+    border-radius: 8px;
+  }
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas: "foto1 parrafo1 foto2 parrafo2";
+  gap: 1rem;
+  margin: 1rem;
+  align-items: center;
+  margin-top: 2rem;
+
+  .fotos1 {
+    grid-area: "foto1";
+    background-color: $colorBordeFot;
+    width: 100%;
+    max-width: 50vh;
+    padding: 2.5px;
+    border: 1.2px solid black;
+    border-radius: 5px;
+    margin-left: 0.05rem;
+  }
+
+  .parrafo12 {
+    grid-area: "parrafo1";
+    background-color: $FondoParrafoPrinc;
+    color: $colorLetraParra;
+    font-weight: 600;
+    font-family: "Titillium Web", sans-serif;
+    padding: 3px;
+    border: .5px solid black;
+    border-radius: 8px;
+  }
+
+  .fotos2 {
+    min-height: 100%;
+    grid-area: "foto2";
+    background-color: $colorBordeFot;
+    width: 100%;
+    max-width: 50vh;
+    padding: 2.5px;
+    border: 1.2px solid black;
+    border-radius: 5px;
+    margin-left: 0.05rem;
+  }
+
+  .parrafo13 {
+    grid-area: "parrafo2";
+    background-color: $FondoParrafoPrinc;
+    color: $colorLetraParra;
+    font-weight: 600;
+    font-family: "Titillium Web", sans-serif;
+    padding: 3px;
+    border: .5px solid black;
+    border-radius: 8px;
+  }
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas: "foto1 parrafo1 foto2 parrafo2";
+  gap: 1rem;
+  margin: 1rem;
+  align-items: center;
+  margin-top: 2rem;
+
+  .fotos3 {
+    grid-area: "foto1";
+    background-color: $colorBordeFot;
+    width: 100%;
+    max-width: 50vh;
+    padding: 2.5px;
+    border: 1.2px solid black;
+    border-radius: 5px;
+    margin-left: 0.05rem;
+  }
+
+  .parrafo14 {
+    grid-area: "parrafo1";
+    background-color: $FondoParrafoPrinc;
+    color: $colorLetraParra;
+    font-weight: 600;
+    font-family: "Titillium Web", sans-serif;
+    padding: 3px;
+    border: .5px solid black;
+    border-radius: 8px;
+  }
+
+  .fotos4 {
+    grid-area: "foto2";
+    background-color: $colorBordeFot;
+    width: 100%;
+    max-width: 50vh;
+    padding: 2.5px;
+    border: 1.2px solid black;
+    border-radius: 5px;
+    margin-left: 0.05rem;
+  }
+  .parrafo15 {
+    grid-area: "parrafo2";
+    background-color: $FondoParrafoPrinc;
+    color: $colorLetraParra;
+    font-weight: 600;
+    font-family: "Titillium Web", sans-serif;
+    padding: 3px;
+    border: .5px solid black;
+    border-radius: 8px;
+  }
+}

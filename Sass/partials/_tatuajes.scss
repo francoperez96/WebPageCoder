@@ -1,0 +1,137 @@
+.tattoo {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "tatto1 parrafo1 tatto2 parrafo2 tatto3 parrafo3"
+    "tatto4 parrafo4 tatto5 parrafo5 tatto6 parrafo6";
+  gap: 1rem;
+  margin: 1rem;
+  align-items: center;
+
+  .tatoo1 {
+    grid-area: "tatoo1";
+    background-color: $colorBordeFot;
+    width: 100%;
+    max-width: 50vh;
+    padding: 2px;
+    border: .5px solid black;
+    border-radius: 5px;
+    margin-left: 0.05rem;
+  }
+
+  .parrafo10 {
+    grid-area: "parrafo1";
+    background-color: $FondoParrafoPrinc;
+    color: $colorLetraParra;
+    font-family: "Titillium Web", sans-serif;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 8px;
+  }
+
+  .tatoo2 {
+    grid-area: "tatoo2";
+    background-color: $colorBordeFot;
+    width: 100%;
+    max-width: 50vh;
+    padding: 2px;
+    border: .5px solid black;
+    border-radius: 5px;
+    margin-left: 0.05rem;
+  }
+
+  .parrafo9 {
+    grid-area: "parrafo2";
+    background-color: $FondoParrafoPrinc;
+    color: $colorLetraParra;
+    font-family: "Titillium Web", sans-serif;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 8px;
+  }
+
+  .tatoo3 {
+    grid-area: "tatoo3";
+    background-color: $colorBordeFot;
+    width: 100%;
+    max-width: 50vh;
+    padding: 2px;
+    border: .5px solid black;
+    border-radius: 5px;
+    margin-left: 0.05rem;
+  }
+
+  .parrafo8 {
+    grid-area: "parrafo3";
+    background-color: $FondoParrafoPrinc;
+    color: $colorLetraParra;
+    font-family: "Titillium Web", sans-serif;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 8px;
+  }
+
+  .tatoo4 {
+    grid-area: "tatoo4";
+    background-color: $colorBordeFot;
+    width: 100%;
+    max-width: 50vh;
+    padding: 2px;
+    border: .5px solid black;
+    border-radius: 5px;
+    margin-left: 0.05rem;
+  }
+
+  .parrafo7 {
+    grid-area: "parrafo4";
+    background-color: $FondoParrafoPrinc;
+    color: $colorLetraParra;
+    font-family: "Titillium Web", sans-serif;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 8px;
+  }
+
+  .tatoo5 {
+    grid-area: "tatoo5";
+    background-color: $colorBordeFot;
+    width: 100%;
+    max-width: 50vh;
+    padding: 2px;
+    border: .5px solid black;
+    border-radius: 5px;
+    margin-left: 0.05rem;
+  }
+
+  .parrafo6 {
+    grid-area: "parrafo5";
+    background-color: $FondoParrafoPrinc;
+    color: $colorLetraParra;
+    font-family: "Titillium Web", sans-serif;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 8px;
+  }
+
+  .tatoo6 {
+    grid-area: "tatoo6";
+    background-color: $colorBordeFot;
+    width: 100%;
+    max-width: 50vh;
+    padding: 2px;
+    border: .5px solid black;
+    border-radius: 5px;
+    margin-left: 0.05rem;
+  }
+
+  .parrafo5 {
+    grid-area: "parrafo6";
+    background-color: $FondoParrafoPrinc;
+    color: $colorLetraParra;
+    font-family: "Titillium Web", sans-serif;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 8px;
+  }
+}
