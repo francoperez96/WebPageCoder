@@ -29,6 +29,16 @@
   margin: 0;
 }
 
+.menu1 a {
+  text-decoration: none;
+  color: #4d4d4d;
+  transition: color 0.3s;
+}
+
+.menu1 a:hover {
+  color: #ff0000;
+}
+
 h1 {
   background-color: #C5EFCB;
   font-size: 2rem;
@@ -49,21 +59,78 @@ h1 {
   padding: 0.75rem;
   display: inline-block;
   border: 1px solid black;
-  margin: 0;
+  margin-top: 1rem;
 }
 
 .norepeat {
-  color: #E3170A;
-  letter-spacing: 0.5px;
-  font-weight: bolder;
-  background-image: url("../img/fondo.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 98.5%;
-  height: 72vh;
-  margin: 0;
-  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "norepeat1 norepeat2";
+  gap: 1rem;
+  align-items: center;
+  margin-left: 2rem;
+  margin-right: 3rem;
+}
+
+.norepeat1 {
+  grid-area: "norepeat1";
+  background-color: #E55934;
+  width: 100%;
+  max-width: 100vh;
+  padding: 2px;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  margin-left: 0.05rem;
+}
+
+.norepeat2 {
+  grid-area: "norepeat2";
+  background-color: #E55934;
+  width: 100%;
+  max-width: 75vh;
+  padding: 2px;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  margin-left: 0.05rem;
+}
+
+.animation {
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+h3 {
+  background-color: #576490;
+  color: #FF8C42;
+  font-family: "Neuton", serif;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  text-align: start;
+  gap: 1rem;
+  padding: 0.75rem;
+  border: 1px solid black;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h3:hover {
+  width: 100%;
+  background-color: #c55e5e;
+  color: black;
+}
+
+.parrafo-index {
+  background-color: #9CF6F6;
+  color: black;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 1rem;
+  text-align: start;
+  padding: 0.75rem;
+  display: inline-block;
+  border: 1px solid black;
+  margin-bottom: 1rem;
 }
 
 .menu1 {
@@ -99,13 +166,11 @@ h1 {
 }
 
 h5 {
-  background-color: #C5EFCB;
   color: #000000;
   font-family: "Neuton", serif;
   font-weight: 400;
   text-align: center;
   padding: 0.5rem;
-  border: 1px solid black;
   letter-spacing: 2px;
   margin: 0;
 }
@@ -122,23 +187,54 @@ h2 {
   margin: 0;
 }
 
-.flex-img {
+.quienesSomos {
+  background-color: #9CF6F6;
+  color: black;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 1rem;
+  padding: 0.75rem;
+  display: inline-block;
+  margin: 0;
+}
+
+h4 {
+  background-color: #2347c0;
+  color: #f3b7b7;
+  font-family: "Neuton", serif;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  text-align: center;
+  padding: 0.5rem;
+  border: 1px solid black;
+  margin: 0;
+  transition: color 0.3s;
+  transition-duration: 3s;
+}
+
+h4:hover {
+  color: black;
+  background-color: #d0d4e2;
+}
+
+.img-director {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-around;
   gap: 1rem;
   margin: 1rem;
   margin-top: 2rem;
   align-items: center;
 }
-.flex-img .fotos11 {
+.img-director .fotos-quienes {
   background-color: #E55934;
-  width: 80%;
+  width: 100%;
+  max-width: 50vh;
   padding: 2.5px;
   border: 1.2px solid black;
   border-radius: 5px;
   margin-left: 0.05rem;
 }
-.flex-img .parrafo11 {
+.img-director .parrafo-quie {
   background-color: #9CF6F6;
   color: #000000;
   font-weight: 600;
@@ -148,18 +244,16 @@ h2 {
   border-radius: 8px;
 }
 
-.grid1 {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr;
-  grid-template-areas: "foto1 parrafo1 foto2 parrafo2";
+.img-director1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   gap: 1rem;
   margin: 1rem;
-  align-items: center;
   margin-top: 2rem;
+  align-items: center;
 }
-.grid1 .fotos1 {
-  grid-area: "foto1";
+.img-director1 .fotos-quienes1 {
   background-color: #E55934;
   width: 100%;
   max-width: 50vh;
@@ -168,29 +262,7 @@ h2 {
   border-radius: 5px;
   margin-left: 0.05rem;
 }
-.grid1 .parrafo12 {
-  grid-area: "parrafo1";
-  background-color: #9CF6F6;
-  color: #000000;
-  font-weight: 600;
-  font-family: "Titillium Web", sans-serif;
-  padding: 3px;
-  border: 0.5px solid black;
-  border-radius: 8px;
-}
-.grid1 .fotos2 {
-  min-height: 100%;
-  grid-area: "foto2";
-  background-color: #E55934;
-  width: 100%;
-  max-width: 50vh;
-  padding: 2.5px;
-  border: 1.2px solid black;
-  border-radius: 5px;
-  margin-left: 0.05rem;
-}
-.grid1 .parrafo13 {
-  grid-area: "parrafo2";
+.img-director1 .parrafo-quie1 {
   background-color: #9CF6F6;
   color: #000000;
   font-weight: 600;
@@ -200,18 +272,16 @@ h2 {
   border-radius: 8px;
 }
 
-.grid2 {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr;
-  grid-template-areas: "foto1 parrafo1 foto2 parrafo2";
+.img-director1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   gap: 1rem;
   margin: 1rem;
-  align-items: center;
   margin-top: 2rem;
+  align-items: center;
 }
-.grid2 .fotos3 {
-  grid-area: "foto1";
+.img-director1 .fotos-quienes1 {
   background-color: #E55934;
   width: 100%;
   max-width: 50vh;
@@ -220,8 +290,7 @@ h2 {
   border-radius: 5px;
   margin-left: 0.05rem;
 }
-.grid2 .parrafo14 {
-  grid-area: "parrafo1";
+.img-director1 .parrafo-quie1 {
   background-color: #9CF6F6;
   color: #000000;
   font-weight: 600;
@@ -230,8 +299,17 @@ h2 {
   border: 0.5px solid black;
   border-radius: 8px;
 }
-.grid2 .fotos4 {
-  grid-area: "foto2";
+
+.img-director2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 1rem;
+  margin: 1rem;
+  margin-top: 2rem;
+  align-items: center;
+}
+.img-director2 .fotos-quienes1 {
   background-color: #E55934;
   width: 100%;
   max-width: 50vh;
@@ -240,8 +318,63 @@ h2 {
   border-radius: 5px;
   margin-left: 0.05rem;
 }
-.grid2 .parrafo15 {
-  grid-area: "parrafo2";
+.img-director2 .parrafo-quie1 {
+  background-color: #9CF6F6;
+  color: #000000;
+  font-weight: 600;
+  font-family: "Titillium Web", sans-serif;
+  padding: 3px;
+  border: 0.5px solid black;
+  border-radius: 8px;
+}
+
+.img-director3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 1rem;
+  margin: 1rem;
+  margin-top: 2rem;
+  align-items: center;
+}
+.img-director3 .fotos-quienes1 {
+  background-color: #E55934;
+  width: 100%;
+  max-width: 50vh;
+  padding: 2.5px;
+  border: 1.2px solid black;
+  border-radius: 5px;
+  margin-left: 0.05rem;
+}
+.img-director3 .parrafo-quie1 {
+  background-color: #9CF6F6;
+  color: #000000;
+  font-weight: 600;
+  font-family: "Titillium Web", sans-serif;
+  padding: 3px;
+  border: 0.5px solid black;
+  border-radius: 8px;
+}
+
+.img-director4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 1rem;
+  margin: 1rem;
+  margin-top: 2rem;
+  align-items: center;
+}
+.img-director4 .fotos-quienes1 {
+  background-color: #E55934;
+  width: 100%;
+  max-width: 50vh;
+  padding: 2.5px;
+  border: 1.2px solid black;
+  border-radius: 5px;
+  margin-left: 0.05rem;
+}
+.img-director4 .parrafo-quie1 {
   background-color: #9CF6F6;
   color: #000000;
   font-weight: 600;
@@ -253,9 +386,9 @@ h2 {
 
 .tattoo {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-areas: "tatto1 parrafo1 tatto2 parrafo2 tatto3 parrafo3" "tatto4 parrafo4 tatto5 parrafo5 tatto6 parrafo6";
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "tatto1 parrafo1 tatto2 parrafo2" "tatto3 parrafo3 tatto4 parrafo4" "tatto5 parrafo5 tatto6 parrafo6";
   gap: 1rem;
   margin: 1rem;
   align-items: center;
@@ -376,7 +509,7 @@ h2 {
 }
 
 .main {
-  background-image: url("../img/cover.jpg");
+  background-color: burlywood;
   display: flex;
   justify-content: space-between;
   padding: 5rem;
@@ -408,11 +541,43 @@ h2 {
   width: 30px;
 }
 
+@media screen and (max-width: 1200px) {
+  .norepeat {
+    display: flex;
+    flex-direction: column;
+  }
+}
 @media screen and (max-width: 1000px) {
+  .img-director {
+    flex-direction: column;
+  }
+  .img-director1 {
+    flex-direction: column;
+  }
+  .img-director2 {
+    flex-direction: column-reverse;
+  }
+  .img-director3 {
+    flex-direction: column;
+  }
+  .img-director4 {
+    flex-direction: column-reverse;
+  }
+  .grid1,
+  .grid2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    gap: 1rem;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .tattoo {
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: "tatto1 parrafo1 tatto2 parrafo2" "tatto3 parrafo3 tatto4 parrafo4" "tatto5 parrafo5 tatto6 parrafo6";
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 1rem;
   }
   .main {
     display: flex;
@@ -440,21 +605,5 @@ h2 {
   }
   .flex-img {
     margin-top: 1rem;
-  }
-  .grid1,
-  .grid2 {
-    display: flex;
-    flex-direction: column;
-    margin-top: 0;
-    gap: 1rem;
-    width: 65%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .tattoo {
-    display: flex;
-    flex-direction: column;
-    margin-top: 1rem;
-    gap: 1rem;
   }
 }/*# sourceMappingURL=main.css.map */

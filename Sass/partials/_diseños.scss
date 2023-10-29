@@ -1,20 +1,23 @@
-.flex-img {
+.img-director1 {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-around;
   gap: 1rem;
   margin: 1rem;
   margin-top: 2rem;
   align-items: center;
 
-  .fotos11 {
+  .fotos-quienes1 {
     background-color: $colorBordeFot;
-    width: 80%;
+    width: 100%;
+    max-width: 50vh;
     padding: 2.5px;
     border: 1.2px solid black;
     border-radius: 5px;
     margin-left: 0.05rem;
   }
-  .parrafo11 {
+
+  .parrafo-quie1 {
     background-color: $FondoParrafoPrinc;
     color: $colorLetraParra;
     font-weight: 600;
@@ -25,18 +28,16 @@
   }
 }
 
-.grid1 {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr;
-  grid-template-areas: "foto1 parrafo1 foto2 parrafo2";
+.img-director1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   gap: 1rem;
   margin: 1rem;
-  align-items: center;
   margin-top: 2rem;
+  align-items: center;
 
-  .fotos1 {
-    grid-area: "foto1";
+  .fotos-quienes1 {
     background-color: $colorBordeFot;
     width: 100%;
     max-width: 50vh;
@@ -46,31 +47,7 @@
     margin-left: 0.05rem;
   }
 
-  .parrafo12 {
-    grid-area: "parrafo1";
-    background-color: $FondoParrafoPrinc;
-    color: $colorLetraParra;
-    font-weight: 600;
-    font-family: "Titillium Web", sans-serif;
-    padding: 3px;
-    border: .5px solid black;
-    border-radius: 8px;
-  }
-
-  .fotos2 {
-    min-height: 100%;
-    grid-area: "foto2";
-    background-color: $colorBordeFot;
-    width: 100%;
-    max-width: 50vh;
-    padding: 2.5px;
-    border: 1.2px solid black;
-    border-radius: 5px;
-    margin-left: 0.05rem;
-  }
-
-  .parrafo13 {
-    grid-area: "parrafo2";
+  .parrafo-quie1 {
     background-color: $FondoParrafoPrinc;
     color: $colorLetraParra;
     font-weight: 600;
@@ -81,18 +58,16 @@
   }
 }
 
-.grid2 {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr;
-  grid-template-areas: "foto1 parrafo1 foto2 parrafo2";
+.img-director2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   gap: 1rem;
   margin: 1rem;
-  align-items: center;
   margin-top: 2rem;
+  align-items: center;
 
-  .fotos3 {
-    grid-area: "foto1";
+  .fotos-quienes1 {
     background-color: $colorBordeFot;
     width: 100%;
     max-width: 50vh;
@@ -102,8 +77,7 @@
     margin-left: 0.05rem;
   }
 
-  .parrafo14 {
-    grid-area: "parrafo1";
+  .parrafo-quie1 {
     background-color: $FondoParrafoPrinc;
     color: $colorLetraParra;
     font-weight: 600;
@@ -112,9 +86,18 @@
     border: .5px solid black;
     border-radius: 8px;
   }
+}
 
-  .fotos4 {
-    grid-area: "foto2";
+.img-director3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 1rem;
+  margin: 1rem;
+  margin-top: 2rem;
+  align-items: center;
+
+  .fotos-quienes1 {
     background-color: $colorBordeFot;
     width: 100%;
     max-width: 50vh;
@@ -123,8 +106,38 @@
     border-radius: 5px;
     margin-left: 0.05rem;
   }
-  .parrafo15 {
-    grid-area: "parrafo2";
+
+  .parrafo-quie1 {
+    background-color: $FondoParrafoPrinc;
+    color: $colorLetraParra;
+    font-weight: 600;
+    font-family: "Titillium Web", sans-serif;
+    padding: 3px;
+    border: .5px solid black;
+    border-radius: 8px;
+  }
+}
+
+.img-director4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 1rem;
+  margin: 1rem;
+  margin-top: 2rem;
+  align-items: center;
+
+  .fotos-quienes1 {
+    background-color: $colorBordeFot;
+    width: 100%;
+    max-width: 50vh;
+    padding: 2.5px;
+    border: 1.2px solid black;
+    border-radius: 5px;
+    margin-left: 0.05rem;
+  }
+
+  .parrafo-quie1 {
     background-color: $FondoParrafoPrinc;
     color: $colorLetraParra;
     font-weight: 600;

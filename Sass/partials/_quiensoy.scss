@@ -9,3 +9,62 @@ h2 {
   border: 1px solid black;
   margin: 0;
 }
+
+.quienesSomos {
+  background-color: $FondoParrafoPrinc;
+  color: black;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 1rem;
+  padding: 0.75rem;
+  display: inline-block;
+  margin: 0;
+}
+
+h4 {
+  background-color: #2347c0;
+  color: #f3b7b7;
+  font-family: "Neuton", serif;
+  font-weight: 400;
+  letter-spacing: .8px;
+  text-align: center;
+  padding: 0.5rem;
+  border: 1px solid black;
+  margin: 0;
+  transition: color 0.3s;
+  transition-duration: 3s;
+}
+
+h4:hover {
+  color: black; 
+  background-color: #d0d4e2;
+}
+
+.img-director {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 1rem;
+  margin: 1rem;
+  margin-top: 2rem;
+  align-items: center;
+
+  .fotos-quienes {
+    background-color: $colorBordeFot;
+    width: 100%;
+    max-width: 50vh;
+    padding: 2.5px;
+    border: 1.2px solid black;
+    border-radius: 5px;
+    margin-left: 0.05rem;
+  }
+
+  .parrafo-quie {
+    background-color: $FondoParrafoPrinc;
+    color: $colorLetraParra;
+    font-weight: 600;
+    font-family: "Titillium Web", sans-serif;
+    padding: 3px;
+    border: .5px solid black;
+    border-radius: 8px;
+  }
+}

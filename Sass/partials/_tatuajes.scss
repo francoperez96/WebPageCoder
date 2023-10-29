@@ -1,10 +1,11 @@
 .tattoo {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   grid-template-areas:
-    "tatto1 parrafo1 tatto2 parrafo2 tatto3 parrafo3"
-    "tatto4 parrafo4 tatto5 parrafo5 tatto6 parrafo6";
+    "tatto1 parrafo1 tatto2 parrafo2"
+    "tatto3 parrafo3 tatto4 parrafo4"
+    "tatto5 parrafo5 tatto6 parrafo6";
   gap: 1rem;
   margin: 1rem;
   align-items: center;

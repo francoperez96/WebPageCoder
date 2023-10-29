@@ -18,18 +18,77 @@ h1 {
   padding: 0.75rem;
   display: inline-block;
   border: 1px solid black;
-  margin: 0;
+  margin-top: 1rem;
 }
+
 .norepeat {
-  color: #E3170A;
-  letter-spacing: .5px;
-  font-weight: bolder;
-  background-image: url("../img/fondo.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 98.5%;
-  height: 72vh;
-  margin: 0;
-  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 
+  "norepeat1 norepeat2";
+  gap: 1rem;
+  align-items: center;
+  margin-left: 2rem;
+  margin-right: 3rem;
+}
+
+.norepeat1 {
+  grid-area: "norepeat1";
+  background-color: $colorBordeFot;
+  width: 100%;
+  max-width: 100vh;
+  padding: 2px;
+  border: .5px solid black;
+  border-radius: 5px;
+  margin-left: 0.05rem;
+}
+
+.norepeat2 {
+  grid-area: "norepeat2";
+  background-color: $colorBordeFot;
+  width: 100%;
+  max-width: 75vh;
+  padding: 2px;
+  border: .5px solid black;
+  border-radius: 5px;
+  margin-left: 0.05rem;
+}
+
+.animation {
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+h3 {
+  background-color: #576490;
+  color: $colorH2;
+  font-family: "Neuton", serif;
+  font-weight: 400;
+  letter-spacing: .8px;
+  text-align: start;
+  gap: 1rem;
+  padding: 0.75rem;
+  border: 1px solid black;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h3:hover {
+  width: 100%;
+  background-color: #c55e5e;
+  color: black;
+}
+
+.parrafo-index {
+  background-color: $FondoParrafoPrinc;
+  color: black;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 1rem;
+  text-align: start;
+  padding: 0.75rem;
+  display: inline-block;
+  border: 1px solid black;
+  margin-bottom: 1rem;
 }
