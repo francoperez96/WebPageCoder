@@ -56,7 +56,7 @@ h1 {
   font-family: "Titillium Web", sans-serif;
   font-size: 1rem;
   text-align: center;
-  padding: 0.75rem;
+  padding: 10px;
   display: inline-block;
   border: 1px solid black;
   margin-top: 1rem;
@@ -88,7 +88,7 @@ h1 {
   grid-area: "norepeat2";
   background-color: #E55934;
   width: 100%;
-  max-width: 75vh;
+  max-width: 54vh;
   padding: 2px;
   border: 0.5px solid black;
   border-radius: 5px;
@@ -127,7 +127,7 @@ h3:hover {
   font-family: "Titillium Web", sans-serif;
   font-size: 1rem;
   text-align: start;
-  padding: 0.75rem;
+  padding: 10px;
   display: inline-block;
   border: 1px solid black;
   margin-bottom: 1rem;
@@ -192,7 +192,7 @@ h2 {
   color: black;
   font-family: "Titillium Web", sans-serif;
   font-size: 1rem;
-  padding: 0.75rem;
+  padding: 10px;
   display: inline-block;
   margin: 0;
 }
@@ -239,7 +239,7 @@ h4:hover {
   color: #000000;
   font-weight: 600;
   font-family: "Titillium Web", sans-serif;
-  padding: 3px;
+  padding: 10px;
   border: 0.5px solid black;
   border-radius: 8px;
 }
@@ -267,7 +267,7 @@ h4:hover {
   color: #000000;
   font-weight: 600;
   font-family: "Titillium Web", sans-serif;
-  padding: 3px;
+  padding: 10px;
   border: 0.5px solid black;
   border-radius: 8px;
 }
@@ -295,7 +295,7 @@ h4:hover {
   color: #000000;
   font-weight: 600;
   font-family: "Titillium Web", sans-serif;
-  padding: 3px;
+  padding: 10px;
   border: 0.5px solid black;
   border-radius: 8px;
 }
@@ -323,7 +323,7 @@ h4:hover {
   color: #000000;
   font-weight: 600;
   font-family: "Titillium Web", sans-serif;
-  padding: 3px;
+  padding: 10px;
   border: 0.5px solid black;
   border-radius: 8px;
 }
@@ -351,7 +351,7 @@ h4:hover {
   color: #000000;
   font-weight: 600;
   font-family: "Titillium Web", sans-serif;
-  padding: 3px;
+  padding: 10px;
   border: 0.5px solid black;
   border-radius: 8px;
 }
@@ -379,7 +379,7 @@ h4:hover {
   color: #000000;
   font-weight: 600;
   font-family: "Titillium Web", sans-serif;
-  padding: 3px;
+  padding: 10px;
   border: 0.5px solid black;
   border-radius: 8px;
 }
@@ -408,7 +408,7 @@ h4:hover {
   background-color: #9CF6F6;
   color: #000000;
   font-family: "Titillium Web", sans-serif;
-  padding: 3px;
+  padding: 10px;
   border: 1px solid black;
   border-radius: 8px;
 }
@@ -427,7 +427,7 @@ h4:hover {
   background-color: #9CF6F6;
   color: #000000;
   font-family: "Titillium Web", sans-serif;
-  padding: 3px;
+  padding: 10px;
   border: 1px solid black;
   border-radius: 8px;
 }
@@ -446,7 +446,7 @@ h4:hover {
   background-color: #9CF6F6;
   color: #000000;
   font-family: "Titillium Web", sans-serif;
-  padding: 3px;
+  padding: 10px;
   border: 1px solid black;
   border-radius: 8px;
 }
@@ -465,7 +465,7 @@ h4:hover {
   background-color: #9CF6F6;
   color: #000000;
   font-family: "Titillium Web", sans-serif;
-  padding: 3px;
+  padding: 10px;
   border: 1px solid black;
   border-radius: 8px;
 }
@@ -484,7 +484,7 @@ h4:hover {
   background-color: #9CF6F6;
   color: #000000;
   font-family: "Titillium Web", sans-serif;
-  padding: 3px;
+  padding: 10px;
   border: 1px solid black;
   border-radius: 8px;
 }
@@ -503,7 +503,7 @@ h4:hover {
   background-color: #9CF6F6;
   color: #000000;
   font-family: "Titillium Web", sans-serif;
-  padding: 3px;
+  padding: 10px;
   border: 1px solid black;
   border-radius: 8px;
 }
@@ -546,39 +546,6 @@ h4:hover {
     display: flex;
     flex-direction: column;
   }
-}
-@media screen and (max-width: 1000px) {
-  .img-director {
-    flex-direction: column;
-  }
-  .img-director1 {
-    flex-direction: column;
-  }
-  .img-director2 {
-    flex-direction: column-reverse;
-  }
-  .img-director3 {
-    flex-direction: column;
-  }
-  .img-director4 {
-    flex-direction: column-reverse;
-  }
-  .grid1,
-  .grid2 {
-    display: flex;
-    flex-direction: column;
-    margin-top: 0;
-    gap: 1rem;
-    width: 65%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .tattoo {
-    display: flex;
-    flex-direction: column;
-    margin-top: 1rem;
-    gap: 1rem;
-  }
   .main {
     display: flex;
     flex-direction: column;
@@ -597,6 +564,39 @@ h4:hover {
     padding: 0.8rem;
     gap: 1.4rem;
     margin-top: 1rem;
+  }
+  .tattoo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 1rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .img-director {
+    flex-direction: column;
+  }
+  .img-director1 {
+    flex-direction: column;
+  }
+  .img-director2 {
+    flex-direction: column;
+  }
+  .img-director3 {
+    flex-direction: column;
+  }
+  .img-director4 {
+    flex-direction: column-reverse;
+  }
+  .grid1,
+  .grid2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    gap: 1rem;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media screen and (max-width: 600px) {

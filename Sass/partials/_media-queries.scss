@@ -1,49 +1,7 @@
 @media screen and (max-width: 1200px) {
-
-  .norepeat{
+  .norepeat {
     display: flex;
     flex-direction: column;
-  }
-  
-}
-
-@media screen and (max-width: 1000px) {
-  .img-director {
-    flex-direction: column;
-  }
-
-  .img-director1 {
-    flex-direction: column;
-  }
-
-  .img-director2 {
-    flex-direction: column-reverse;
-  }
-
-  .img-director3 {
-    flex-direction: column;
-  }
-
-  .img-director4 {
-    flex-direction: column-reverse;
-  }
-
-  .grid1,
-  .grid2 {
-    display: flex;
-    flex-direction: column;
-    margin-top: 0;
-    gap: 1rem;
-    width: 65%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .tattoo {
-    display: flex;
-    flex-direction: column;
-    margin-top: 1rem;
-    gap: 1rem;
   }
 
   .main {
@@ -67,6 +25,45 @@
       gap: 1.4rem;
       margin-top: 1rem;
     }
+  }
+  .tattoo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .img-director {
+    flex-direction: column;
+  }
+
+  .img-director1 {
+    flex-direction: column;
+  }
+
+  .img-director2 {
+    flex-direction: column;
+  }
+
+  .img-director3 {
+    flex-direction: column;
+  }
+
+  .img-director4 {
+    flex-direction: column-reverse;
+  }
+
+  .grid1,
+  .grid2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    gap: 1rem;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
